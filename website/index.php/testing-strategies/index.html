@@ -98,8 +98,8 @@ body { font-size:14px; }
 						<nav id="site-navigation" class="main-navigation col-md-8" role="navigation">
 				<div class="menu-menu-container"><ul id="primary-menu" class="menu"><li id="menu-item-126" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-126"><a href="./../../index.html">Overview</a></li>
 <li id="menu-item-150" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-150"><a href="./../requirements-2/index.html">Requirements</a></li>
-<li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a href="./../project-management/index.html">Project Management</a></li>
-<li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138"><a href="./../development/index.html">Research &#038; Resources</a></li>
+<li id="menu-item-135" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-135"><a href="./../project-management/index.html">Project Management &#038; Design</a></li>
+<li id="menu-item-138" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-138"><a href="./../development/index.html">Research</a></li>
 <li id="menu-item-325" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-324 current_page_item menu-item-325"><a href="./index.html">Testing Strategies</a></li>
 </ul></div>			</nav><!-- #site-navigation -->
 			<nav class="mobile-nav"></nav>
@@ -125,7 +125,64 @@ body { font-size:14px; }
 		<h1 class="entry-title">Testing Strategies</h1>	</header><!-- .entry-header -->
 
 	<div class="entry-content">
-					</div><!-- .entry-content -->
+		<h2><strong><u>Core Analytics</u></strong></h2>
+<p><strong>Unit Testing:</strong> Since the PEACH system consists of multiple interconnected components running as a service, there are a very few areas that can be tested separately</p>
+<p>Area 1: Apache Kafka</p>
+<p>This is a very important component of the PEACH dataflow and Kafka should be tested to see if it outputs the expected type of data.</p>
+<p>Area 2: Connection between NiFi and Kafka</p>
+<p>The interaction between NiFi and Kafka can also be tested to view the transformation of data before it enters Kafka. (Decryption, Compression, etc.)</p>
+<p><strong>Performance Testing</strong><em>: </em>The performance of the system can be tested by measuring its processing time. This will allow us to experiment and optimise the Kafka streams as necessary.</p>
+<p>The following table can be used to record the results of files with different file sizes and types</p>
+<table>
+<tbody>
+<tr>
+<td width="86">Test No.</td>
+<td colspan="2" width="172">Input File Format &amp; Size</td>
+<td colspan="2" width="172">Output File Format &amp; Size</td>
+<td width="86">Time</td>
+</tr>
+<tr>
+<td width="86">1</td>
+<td width="86">1 CSV</td>
+<td width="86">40(MB)</td>
+<td width="86">200 CSV</td>
+<td width="86">400 (MB)</td>
+<td width="86">25.01 (s)</td>
+</tr>
+<tr>
+<td width="86">2</td>
+<td width="86">500 JSON</td>
+<td width="86">7 (MB)</td>
+<td width="86">1000 JSON</td>
+<td width="86">15 (MB)</td>
+<td width="86">12.11 (s)</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h2><strong><u>Generator</u></strong></h2>
+<p><strong>Unit Testing<em>:</em></strong> There are 2 main areas components in the Generator that can be tested separately, the GUI and Non – GUI elements.</p>
+<p>Area 1 : Non – GUI elements</p>
+<ul>
+<li>Different test cases can be written for different segments of code</li>
+<li>Run the test to ensure it fails</li>
+<li>Adjust the code to pass the test</li>
+<li>Look for unintentional side affects</li>
+</ul>
+<p>For example: A test can written so that it checks whether the data is correctly written onto a new file</p>
+<p>Area 2:  GUI elements</p>
+<ul>
+<li>TestFx can used to automate user interface testing</li>
+<li>Different methods can be tested separately to ensure they perform the correct functions</li>
+</ul>
+<p>For example: The RadioButton object can tested to check its behaviour.</p>
+<p><strong>Functional Testing: </strong>The main purpose of functional testing will be to test the generation of new data from novel datasets.</p>
+<ul>
+<li>This includes identifying correct information that needs to be replaced with</li>
+<li>Identifying correct dependencies within fields</li>
+<li>Identifying correct variable types</li>
+</ul>
+			</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
 			</footer><!-- .entry-footer -->

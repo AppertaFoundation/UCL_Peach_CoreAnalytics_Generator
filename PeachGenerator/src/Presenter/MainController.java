@@ -57,6 +57,7 @@ public class MainController {
             stage = (Stage) btnNextMain.getScene().getWindow();
 
             switch (taskSelection) {
+                // where is this function?
                 case "GenerateDataScramble":
                     root = FXMLLoader.load(getClass().getResource("zzdelFolder/scramblerGUI.fxml"));
                     break;

@@ -10,24 +10,19 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
-import javafx.scene.control.Button;
-import javafx.scene.control.ScrollPane;
-import javafx.scene.control.TextField;
 import javafx.scene.layout.GridPane;
-import javafx.scene.text.*;
 import javafx.scene.text.Font;
+import javafx.scene.text.FontWeight;
+import javafx.scene.text.Text;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
 import model.DataIdentifier;
-import org.apache.commons.codec.binary.StringUtils;
-import org.apache.commons.lang.*;
 import review.TableManager;
 import utility.CsvFileProcessor;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
 
 public class NoiseInjectorMainController {
 
@@ -35,6 +30,7 @@ public class NoiseInjectorMainController {
     public Button btnBackNoiseInjection;
     public Button btnNext;
 
+    public TableView newDataTable;
     public ScrollPane tableScrollPane;
     public ScrollPane settingsScrollPane;
 
@@ -64,14 +60,13 @@ public class NoiseInjectorMainController {
 
         /* Create table for the preview */
         TableManager tableManager = new TableManager(inputFile);
-        TableView newDataTable = tableManager.generateDataTable();
+        newDataTable = tableManager.generateDataTable();
 
         newDataTable.setPrefHeight(590);
-
         /* Disable resizing of table columns */
         newDataTable.setColumnResizePolicy(TableView.CONSTRAINED_RESIZE_POLICY);
-
-
+        System.out.println(newDataTable.getColumns().get(0).toString());
+        System.out.println(newDataTable.getItems().get(0).toString());
         tableScrollPane.setContent(newDataTable);
 
         /* Get headers for settings scrollpane */

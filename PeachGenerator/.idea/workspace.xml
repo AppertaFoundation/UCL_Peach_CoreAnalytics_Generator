@@ -60,43 +60,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Presenter/MainController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kAnonController.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Presenter/kAnonController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="2.9055119">
-              <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Launcher.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Presenter/Launcher.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoiseInjectorMainController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NoiseInjectorMainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorMainController.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.95183045">
+              <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+              <folding>
+                <element signature="method#browseForFile#0;class#NoiseInjectorMainController#0" expanded="false" />
+                <element signature="method#loadFile#0;class#NoiseInjectorMainController#0" expanded="false" />
+                <element signature="method#generateComboBox#0;class#NoiseInjectorMainController#0" expanded="false" />
+                <element signature="method#generateComboBox#1;class#NoiseInjectorMainController#0" expanded="false" />
+                <element signature="method#comboBoxHandler#0;class#NoiseInjectorMainController#0" expanded="false" />
+                <element signature="method#navigationButtonClick#0;class#NoiseInjectorMainController#0" expanded="false" />
+                <element signature="method#checkSettingData#0;class#NoiseInjectorMainController#0" expanded="false" />
+                <element signature="method#generateUnfilledAlertBox#0;class#NoiseInjectorMainController#0" expanded="false" />
+                <element signature="method#getNodeByRowColumnIndex#0;class#NoiseInjectorMainController#0" expanded="false" />
+                <element signature="method#tpyeRef#0;class#NoiseInjectorMainController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TableManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/review/TableManager.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="e#843#895#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="noiseInjectorGUImain.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/noiseInjectorGUImain.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.114754">
+              <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
@@ -104,9 +110,40 @@
         <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorModifyController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+              <caret line="473" column="5" selection-start-line="473" selection-start-column="5" selection-end-line="473" selection-end-column="5" />
+              <folding>
+                <element signature="method#initialiseGUI#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#createHeadings#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#setSaveLocation#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#navigationBtnHandler#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#generateButton#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#previewButtonHandler#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#loadPreviewPanel#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#getRandomName#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#loadNames#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#setComboBoxValues#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#getEnumFrequency#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#generateDataHandler#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#writeDataToFile#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#addSettingsRow#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#generateOptionsNode#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#generateComboBox#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="method#getNodeByRowColumnIndex#0;class#NoiseInjectorModifyController#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="noiseInjectorGUImodify.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/view/noiseInjectorGUImodify.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="26" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="26" />
               <folding />
             </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
           </provider>
         </entry>
       </file>
@@ -127,6 +164,14 @@
       <list>
         <option value="$PROJECT_DIR$/src/sample/Controller.java" />
         <option value="$PROJECT_DIR$/src/external/utility/ARXBaseClass.java" />
+        <option value="$PROJECT_DIR$/src/view/kAnonDataInput.fxml" />
+        <option value="$PROJECT_DIR$/src/Presenter/Launcher.java" />
+        <option value="$PROJECT_DIR$/src/view/mainGUI.fxml" />
+        <option value="$PROJECT_DIR$/src/Presenter/MainController.java" />
+        <option value="$PROJECT_DIR$/src/Presenter/kAnonController.java" />
+        <option value="$PROJECT_DIR$/src/view/noiseInjectorGUImain.fxml" />
+        <option value="$PROJECT_DIR$/src/Presenter/NoiseInjectorMainController.java" />
+        <option value="$PROJECT_DIR$/src/Presenter/NoiseInjectorModifyController.java" />
         <option value="$PROJECT_DIR$/src/review/TableManager.java" />
       </list>
     </option>
@@ -140,8 +185,9 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="19" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
+    <option name="width" value="1375" />
     <option name="height" value="810" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -174,7 +220,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,7 +285,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="review" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -279,9 +325,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PeachGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PeachGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -296,8 +360,10 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/wumengyang/Desktop/PeachGenerator/src/Presenter/Launcher.java&#10;here&#9;ACTION&#9;SearchEverywhere" />
+    <property name="SearchEverywhereHistoryKey" value="Tab&#9;FILE&#9;file:///Users/wumengyang/Desktop/Peach-CoreAnalytics-Generator/PeachGenerator/src/review/TableManager.java&#10;TableManager&#9;FILE&#9;file:///Users/wumengyang/Desktop/Peach-CoreAnalytics-Generator/PeachGenerator/src/review/TableManager.java&#10;csv&#9;FILE&#9;file:///Users/wumengyang/Desktop/Peach-CoreAnalytics-Generator/PeachGenerator/src/utility/CsvFileProcessor.java&#10;initialiseGUI&#9;PSI&#9;JAVA://Presenter.NoiseInjectorModifyController#initialiseGUI&#10;modify&#9;FILE&#9;file:///Users/wumengyang/Desktop/Peach-CoreAnalytics-Generator/PeachGenerator/src/view/noiseInjectorGUImodify.fxml&#10;Noise&#9;FILE&#9;file:///Users/wumengyang/Desktop/Peach-CoreAnalytics-Generator/PeachGenerator/src/Presenter/NoiseInjectorModifyController.java&#10;noise&#9;FILE&#9;file:///Users/wumengyang/Desktop/Peach-CoreAnalytics-Generator/PeachGenerator/src/view/noiseInjectorGUImain.fxml&#10;Noi&#9;FILE&#9;file:///Users/wumengyang/Desktop/Peach-CoreAnalytics-Generator/PeachGenerator/src/Presenter/NoiseInjectorMainController.java&#10;kan&#9;PSI&#9;JAVA://model.kAnonData&#10;CSV&#9;PSI&#9;JAVA://utility.CsvFileProcessor&#10;here&#9;ACTION&#9;SearchEverywhere" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.Launcher">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -605,20 +671,20 @@
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
-    <editor active="false" />
+    <frame x="19" y="23" width="1375" height="810" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32765958" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.77446806" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21843971" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23093525" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16690648" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -647,7 +713,9 @@
     </ignored-roots>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -659,7 +727,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#browseForFile#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#loadFile#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#generateComboBox#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#generateComboBox#1;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#comboBoxHandler#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#navigationButtonClick#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#checkSettingData#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#generateUnfilledAlertBox#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#getNodeByRowColumnIndex#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#tpyeRef#0;class#NoiseInjectorMainController#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -667,47 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presenter/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presenter/kAnonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presenter/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorMainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorModifyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -723,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -731,7 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -739,7 +774,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#browseForFile#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#loadFile#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#generateComboBox#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#generateComboBox#1;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#comboBoxHandler#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#navigationButtonClick#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#checkSettingData#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#generateUnfilledAlertBox#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#getNodeByRowColumnIndex#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#tpyeRef#0;class#NoiseInjectorMainController#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -747,7 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +800,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +821,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="method#browseForFile#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#loadFile#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#generateComboBox#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#generateComboBox#1;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#comboBoxHandler#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#navigationButtonClick#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#checkSettingData#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#generateUnfilledAlertBox#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#getNodeByRowColumnIndex#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#tpyeRef#0;class#NoiseInjectorMainController#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -787,7 +840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,7 +854,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -810,7 +861,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="157" column="0" selection-start-line="157" selection-start-column="0" selection-end-line="157" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -818,7 +868,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -854,7 +903,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -862,7 +910,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -898,7 +945,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -906,7 +952,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -931,54 +976,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/noiseInjectorGUImodify.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/noiseInjectorGUImain.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/kAnonDataInput.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/external/utility/AliasMethod.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29044586">
           <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/mainGUI.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1003,29 +1004,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/review/TableManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25187033">
-          <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorModifyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorMainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/external/utility/StdRandom.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.9177055">
@@ -1033,10 +1011,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presenter/MainController.java">
+    <entry file="file://$PROJECT_DIR$/src/tests/utility/CsvFileProcessorTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utility/DataPlotManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13620071">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/NoiseGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5089286">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
           <folding />
         </state>
       </provider>
@@ -1044,16 +1036,133 @@
     <entry file="file://$PROJECT_DIR$/src/Presenter/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/mainGUI.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="37" column="47" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="47" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/kAnonData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09800919">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/kAnonDataInput.fxml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.75">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Presenter/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Presenter/kAnonController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.9055119">
-          <caret line="46" column="32" selection-start-line="46" selection-start-column="32" selection-end-line="46" selection-end-column="32" />
+        <state vertical-scroll-proportion="2.117385">
+          <caret line="185" column="22" selection-start-line="185" selection-start-column="22" selection-end-line="185" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utility/CsvFileProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.8125">
+          <caret line="179" column="62" selection-start-line="179" selection-start-column="58" selection-end-line="179" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/noiseInjectorGUImain.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.114754">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/noiseInjectorGUImodify.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorModifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="473" column="5" selection-start-line="473" selection-start-column="5" selection-end-line="473" selection-end-column="5" />
+          <folding>
+            <element signature="method#initialiseGUI#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#createHeadings#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#setSaveLocation#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#navigationBtnHandler#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#generateButton#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#previewButtonHandler#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#loadPreviewPanel#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#getRandomName#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#loadNames#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#setComboBoxValues#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#getEnumFrequency#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#generateDataHandler#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#writeDataToFile#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#addSettingsRow#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#generateOptionsNode#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#generateComboBox#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#getNodeByRowColumnIndex#0;class#NoiseInjectorModifyController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/review/TableManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#843#895#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorMainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.95183045">
+          <caret line="58" column="0" selection-start-line="58" selection-start-column="0" selection-end-line="58" selection-end-column="0" />
+          <folding>
+            <element signature="method#browseForFile#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#loadFile#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#generateComboBox#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#generateComboBox#1;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#comboBoxHandler#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#navigationButtonClick#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#checkSettingData#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#generateUnfilledAlertBox#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#getNodeByRowColumnIndex#0;class#NoiseInjectorMainController#0" expanded="false" />
+            <element signature="method#tpyeRef#0;class#NoiseInjectorMainController#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

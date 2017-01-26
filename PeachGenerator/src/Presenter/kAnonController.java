@@ -50,6 +50,7 @@ public class kAnonController {
 
     }
 
+    // Browse button
     public void browseForFile(ActionEvent event){
 
         //Create a file chooser for selecting the input file
@@ -62,6 +63,7 @@ public class kAnonController {
 
     }
 
+    // Back button
     public void navigationButtonHandler(ActionEvent event) throws Exception{
 
         Stage stage = null;
@@ -81,6 +83,7 @@ public class kAnonController {
         }
     }
 
+    // Load button
     /* Event handler for loading data into */
     public void loadFileHandler(){
 
@@ -95,7 +98,6 @@ public class kAnonController {
         prefillVals();
 
     }
-
 
     public GridPane generateScrollPaneContent(){
         GridPane retGridPane = new GridPane();
@@ -149,6 +151,7 @@ public class kAnonController {
         return retComboBox;
     }
 
+    // Generate button
     public void generateFileHandler() throws IOException {
 
         //check k-anon property filled
@@ -241,7 +244,6 @@ public class kAnonController {
         txtFieldKAnon.setText("2");
     }
 
-
     private void generateAlertBox(String message){
         Alert alert = new Alert(Alert.AlertType.INFORMATION);
         alert.setTitle("Information Dialog");
@@ -265,7 +267,7 @@ public class kAnonController {
         return result;
     }
 
-
+    // browse button 2
     public void saveFileHandler(ActionEvent event){
 
         //Create a file chooser for selecting the input file

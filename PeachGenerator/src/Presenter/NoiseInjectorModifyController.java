@@ -1,6 +1,5 @@
 package Presenter;
 
-import com.sun.tools.doclets.formats.html.SourceToHTMLConverter;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
@@ -33,7 +32,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.*;
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.stream.IntStream;
 
 public class NoiseInjectorModifyController {
 
@@ -182,23 +180,18 @@ public class NoiseInjectorModifyController {
 
     private void loadPreviewPanel(int row){
         //find out what needs to go in the panel
-
+        System.out.println(row);
         String optionsVal = (String) options[row][0];
-
-        switch (optionsVal){
-            case "StandardDev":
-                break;
-            case "Identifier":
-        }
 
         if(optionsVal.equals("StandardDev")){
 
             String valueDataType = comboBoxValues[2][row];
+            System.out.println(valueDataType);
             Float stDevVal = (Float) options[row][1];
 
             if(valueDataType.equals("Continous")){
-
-                TextField txtFieldVal = (TextField) getNodeByRowColumnIndex(row,1,modifyGridPane);
+                TextField txtFieldVal = (TextField) getNodeByRowColumnIndex(row + 2, 1, modifyGridPane);
+                txtFieldVal.getCharacters();
 
                 System.out.println(txtFieldVal.getText());
 
@@ -247,10 +240,10 @@ public class NoiseInjectorModifyController {
 
                 previewScrollPane.setContent(lineChart);
 
-            } else if(valueDataType.equals("categorical")){
+            } else if(valueDataType.equals("Categorical")){
 
                 String[] colData = new String[originalData[row].length-1];
-
+                System.out.println("Cate");
                 //remove the header
                 for(int i=1; i<originalData[row].length;i++){
                     colData[i-1] = originalData[row][i];
@@ -393,7 +386,6 @@ public class NoiseInjectorModifyController {
         return retArray;
     }
 
-
     public void setComboBoxValues(String[][] comboBoxValues){
         this.comboBoxValues = comboBoxValues;
         initialiseOptionArray();
@@ -442,22 +434,26 @@ public class NoiseInjectorModifyController {
 
         }
 
+        System.out.println("here 2");
         boolean modCheck = true;
 
         for(int i=0;i<checkTransformations.length;i++){
             if(checkTransformations[i] == 1 && transformTracker[i] == false){
+                System.out.println("modecheck: " + i + " failed");
                 modCheck = false;
                 break;
             }
         }
 
+        System.out.println("here 3");
         //Check that the file is selected
+        System.out.println(modCheck);
+        System.out.println(saveLocation != null);
         if (modCheck && saveLocation != null){
 
             String fileName = "/newOutputFile.csv";
             File outputFile = new File(saveLocation.getAbsolutePath() + fileName);
 
-            /*
             String [][] finalData = new String[transformedData[0].length][transformedData.length];
 
             for(int i=0;i<transformedData.length;i++){
@@ -467,7 +463,6 @@ public class NoiseInjectorModifyController {
             }
 
             CsvFileProcessor.writeAllDatatoCSVFile(outputFile,finalData);
-            */
 
             System.out.println("data saved!");
 

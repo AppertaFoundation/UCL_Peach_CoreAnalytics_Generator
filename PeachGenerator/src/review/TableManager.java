@@ -27,11 +27,17 @@ public class TableManager {
         this.dataFile = dataFile;
     }
 
-    public TableView generateDataTable(){
+    public TableView generateDataTable() {
 
         //get Data from file
-        String[][] csvData = CsvFileProcessor.getCsvData(dataFile,30);
+        String[][] csvData = CsvFileProcessor.getCsvData(dataFile, 30);
 
+//        for (int i = 0; i < csvData.length; i++) {
+//            for (int j = 0; j < csvData[0].length; j++) {
+//                System.out.print(csvData[i][j] + ' ');
+//            }
+//            System.out.println();
+//        }
         data = FXCollections.observableArrayList();
 
         for(int i=0;i<csvData[0].length;i++){
@@ -55,14 +61,13 @@ public class TableManager {
             ObservableList<String> row = FXCollections.observableArrayList();
             for(int j=0; j<csvData[0].length;j++){
                 row.add(csvData[i][j]);
+//                System.out.println(row.get(j));
             }
             data.add(row);
         }
-
+//        System.out.println(data.get(5).get(2));
         tableView.setItems(data);
-
         return tableView;
     }
-
 
 }

@@ -21,7 +21,6 @@
       <Pane prefHeight="800.0" prefWidth="1024.0">
          <children>
             <Button fx:id="btnBackNoiseInjection" layoutX="43.0" layoutY="754.0" mnemonicParsing="false" onAction="#navigationButtonClick" prefHeight="27.0" prefWidth="83.0" text="&lt;&lt; Back" />
-
             <Button fx:id="btnNext" layoutX="903.0" layoutY="754.0" mnemonicParsing="false" onAction="#navigationButtonClick" prefHeight="27.0" prefWidth="83.0" text="Next &gt;&gt;" />
             <Button fx:id="btnBrowseFile" layoutX="380.0" layoutY="65.0" mnemonicParsing="false" onAction="#browseForFile" prefHeight="27.0" prefWidth="83.0" text="Browse" />
             <TextField fx:id="txtFieldFileSelected" layoutX="103.0" layoutY="65.0" prefHeight="27.0" prefWidth="279.0" />

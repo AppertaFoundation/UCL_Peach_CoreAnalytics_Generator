@@ -60,11 +60,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="NoiseInjectorMainController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NoiseInjectorMainController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorMainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5040816">
-              <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
               <folding>
                 <element signature="method#browseForFile#0;class#NoiseInjectorMainController#0" expanded="false" />
                 <element signature="method#loadFile#0;class#NoiseInjectorMainController#0" expanded="false" />
@@ -75,19 +75,91 @@
                 <element signature="method#checkSettingData#0;class#NoiseInjectorMainController#0" expanded="false" />
                 <element signature="method#generateUnfilledAlertBox#0;class#NoiseInjectorMainController#0" expanded="false" />
                 <element signature="method#getNodeByRowColumnIndex#0;class#NoiseInjectorMainController#0" expanded="false" />
-                <element signature="method#tpyeRef#0;class#NoiseInjectorMainController#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TableManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/review/TableManager.java">
+      <file leaf-file-name="NoiseAdditionTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestFolder/NoiseAdditionTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kAnonDataTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/model/kAnonDataTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ARXkAnonymiserTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/model/ARXkAnonymiserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LineGraphSettingsTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/tests/model/LineGraphSettingsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NoiseInjectorMainControllerTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tests/Presenter/NoiseInjectorMainControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32754344">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LineGraphSettings.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/LineGraphSettings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="e#843#895#0" expanded="false" />
+                <element signature="e#629#630#0" expanded="false" />
+                <element signature="e#660#661#0" expanded="false" />
+                <element signature="e#707#708#0" expanded="false" />
+                <element signature="e#747#748#0" expanded="false" />
+                <element signature="e#781#782#0" expanded="false" />
+                <element signature="e#812#813#0" expanded="false" />
+                <element signature="e#859#860#0" expanded="false" />
+                <element signature="e#899#900#0" expanded="false" />
+                <element signature="e#936#937#0" expanded="false" />
+                <element signature="e#969#970#0" expanded="false" />
+                <element signature="e#1021#1022#0" expanded="false" />
+                <element signature="e#1065#1066#0" expanded="false" />
+                <element signature="e#1102#1103#0" expanded="false" />
+                <element signature="e#1135#1136#0" expanded="false" />
+                <element signature="e#1187#1188#0" expanded="false" />
+                <element signature="e#1231#1232#0" expanded="false" />
+                <element signature="e#1268#1269#0" expanded="false" />
+                <element signature="e#1301#1302#0" expanded="false" />
+                <element signature="e#1353#1354#0" expanded="false" />
+                <element signature="e#1397#1398#0" expanded="false" />
+                <element signature="e#1434#1435#0" expanded="false" />
+                <element signature="e#1467#1468#0" expanded="false" />
+                <element signature="e#1519#1520#0" expanded="false" />
+                <element signature="e#1563#1564#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -95,14 +167,14 @@
       </file>
       <file leaf-file-name="noiseInjectorGUImain.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/noiseInjectorGUImain.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
           </provider>
         </entry>
       </file>
@@ -110,20 +182,25 @@
         <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorModifyController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="473" column="5" selection-start-line="473" selection-start-column="5" selection-end-line="473" selection-end-column="5" />
+              <caret line="58" column="34" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="34" />
               <folding>
+                <element signature="imports" expanded="false" />
                 <element signature="method#initialiseGUI#0;class#NoiseInjectorModifyController#0" expanded="false" />
                 <element signature="method#createHeadings#0;class#NoiseInjectorModifyController#0" expanded="false" />
                 <element signature="method#setSaveLocation#0;class#NoiseInjectorModifyController#0" expanded="false" />
                 <element signature="method#navigationBtnHandler#0;class#NoiseInjectorModifyController#0" expanded="false" />
                 <element signature="method#generateButton#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="e#4998#4999#0" expanded="false" />
+                <element signature="e#5065#5066#0" expanded="false" />
                 <element signature="method#previewButtonHandler#0;class#NoiseInjectorModifyController#0" expanded="false" />
                 <element signature="method#loadPreviewPanel#0;class#NoiseInjectorModifyController#0" expanded="false" />
                 <element signature="method#getRandomName#0;class#NoiseInjectorModifyController#0" expanded="false" />
                 <element signature="method#loadNames#0;class#NoiseInjectorModifyController#0" expanded="false" />
                 <element signature="method#setComboBoxValues#0;class#NoiseInjectorModifyController#0" expanded="false" />
-                <element signature="method#getEnumFrequency#0;class#NoiseInjectorModifyController#0" expanded="false" />
-                <element signature="method#generateDataHandler#0;class#NoiseInjectorModifyController#0" expanded="false" />
+                <element signature="e#12849#12850#0" expanded="false" />
+                <element signature="e#12891#12892#0" expanded="false" />
+                <element signature="e#12934#12935#0" expanded="false" />
+                <element signature="e#12999#13000#0" expanded="false" />
                 <element signature="method#writeDataToFile#0;class#NoiseInjectorModifyController#0" expanded="false" />
                 <element signature="method#addSettingsRow#0;class#NoiseInjectorModifyController#0" expanded="false" />
                 <element signature="method#generateOptionsNode#0;class#NoiseInjectorModifyController#0" expanded="false" />
@@ -136,14 +213,14 @@
       </file>
       <file leaf-file-name="noiseInjectorGUImodify.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/view/noiseInjectorGUImodify.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="0" column="26" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="26" />
               <folding />
             </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
           </provider>
         </entry>
       </file>
@@ -170,9 +247,9 @@
         <option value="$PROJECT_DIR$/src/Presenter/MainController.java" />
         <option value="$PROJECT_DIR$/src/Presenter/kAnonController.java" />
         <option value="$PROJECT_DIR$/src/view/noiseInjectorGUImain.fxml" />
-        <option value="$PROJECT_DIR$/src/Presenter/NoiseInjectorMainController.java" />
         <option value="$PROJECT_DIR$/src/Presenter/NoiseInjectorModifyController.java" />
         <option value="$PROJECT_DIR$/src/review/TableManager.java" />
+        <option value="$PROJECT_DIR$/src/Presenter/NoiseInjectorMainController.java" />
       </list>
     </option>
   </component>
@@ -185,9 +262,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
+    <option name="x" value="32" />
     <option name="y" value="23" />
-    <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="width" value="1323" />
+    <option name="height" value="841" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -220,6 +298,8 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -267,6 +347,90 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PeachGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PeachGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PeachGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PeachGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Presenter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PeachGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PeachGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PeachGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PeachGenerator" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestFolder" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -344,8 +508,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -365,6 +527,136 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RunManager" selected="Application.Launcher">
+    <configuration default="false" name="MainControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Presenter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PeachGenerator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.Presenter" />
+      <option name="MAIN_CLASS_NAME" value="Presenter.MainControllerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="ARXkAnonymiserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PeachGenerator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.model" />
+      <option name="MAIN_CLASS_NAME" value="model.ARXkAnonymiserTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="BarGraphSettingsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PeachGenerator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.model" />
+      <option name="MAIN_CLASS_NAME" value="model.BarGraphSettingsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="LineGraphSettingsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PeachGenerator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.model" />
+      <option name="MAIN_CLASS_NAME" value="model.LineGraphSettingsTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="NoiseInjectorMainControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Presenter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PeachGenerator" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tests.Presenter" />
+      <option name="MAIN_CLASS_NAME" value="Presenter.NoiseInjectorMainControllerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -644,9 +936,23 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="1">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Launcher" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MainControllerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ARXkAnonymiserTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.BarGraphSettingsTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.LineGraphSettingsTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.NoiseInjectorMainControllerTest" />
     </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.NoiseInjectorMainControllerTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.LineGraphSettingsTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MainControllerTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.BarGraphSettingsTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.ARXkAnonymiserTest" />
+      </list>
+    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -666,11 +972,43 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="LineGraphSettingsTest - 2017.04.18 at 14h 51m 33s.xml">
+      <configuration name="LineGraphSettingsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineGraphSettingsTest - 2017.04.18 at 14h 55m 18s.xml">
+      <configuration name="LineGraphSettingsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="LineGraphSettingsTest - 2017.04.18 at 14h 56m 47s.xml">
+      <configuration name="LineGraphSettingsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MainControllerTest - 2017.04.18 at 14h 51m 46s.xml">
+      <configuration name="MainControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NoiseInjectorMainControllerTest - 2017.04.18 at 14h 51m 58s.xml">
+      <configuration name="NoiseInjectorMainControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NoiseInjectorMainControllerTest - 2017.04.18 at 14h 57m 23s.xml">
+      <configuration name="NoiseInjectorMainControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NoiseInjectorMainControllerTest - 2017.04.18 at 14h 58m 10s.xml">
+      <configuration name="NoiseInjectorMainControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NoiseInjectorMainControllerTest - 2017.04.18 at 14h 59m 07s.xml">
+      <configuration name="NoiseInjectorMainControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NoiseInjectorMainControllerTest - 2017.04.18 at 14h 59m 50s.xml">
+      <configuration name="NoiseInjectorMainControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="NoiseInjectorMainControllerTest - 2017.04.18 at 19h 19m 50s.xml">
+      <configuration name="NoiseInjectorMainControllerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="810" extended-state="0" />
+    <frame x="32" y="23" width="1323" height="841" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -680,10 +1018,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25957447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4089674" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.16690648" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28593874" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -722,25 +1060,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorMainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="method#browseForFile#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#loadFile#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#generateComboBox#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#generateComboBox#1;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#comboBoxHandler#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#navigationButtonClick#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#checkSettingData#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#generateUnfilledAlertBox#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#getNodeByRowColumnIndex#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#tpyeRef#0;class#NoiseInjectorMainController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorModifyController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -783,54 +1102,6 @@
             <element signature="method#checkSettingData#0;class#NoiseInjectorMainController#0" expanded="false" />
             <element signature="method#generateUnfilledAlertBox#0;class#NoiseInjectorMainController#0" expanded="false" />
             <element signature="method#getNodeByRowColumnIndex#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#tpyeRef#0;class#NoiseInjectorMainController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorModifyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presenter/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presenter/kAnonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presenter/Launcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorMainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding>
-            <element signature="method#browseForFile#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#loadFile#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#generateComboBox#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#generateComboBox#1;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#comboBoxHandler#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#navigationButtonClick#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#checkSettingData#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#generateUnfilledAlertBox#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#getNodeByRowColumnIndex#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#tpyeRef#0;class#NoiseInjectorMainController#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1039,13 +1310,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/mainGUI.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="37" column="47" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="47" />
         </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/kAnonData.java">
@@ -1056,13 +1327,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/view/kAnonDataInput.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
       <provider editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.75">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Presenter/MainController.java">
@@ -1086,54 +1357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/noiseInjectorGUImain.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/view/noiseInjectorGUImodify.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="26" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorModifyController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="473" column="5" selection-start-line="473" selection-start-column="5" selection-end-line="473" selection-end-column="5" />
-          <folding>
-            <element signature="method#initialiseGUI#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#createHeadings#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#setSaveLocation#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#navigationBtnHandler#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#generateButton#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#previewButtonHandler#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#loadPreviewPanel#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#getRandomName#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#loadNames#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#setComboBoxValues#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#getEnumFrequency#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#generateDataHandler#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#writeDataToFile#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#addSettingsRow#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#generateOptionsNode#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#generateComboBox#0;class#NoiseInjectorModifyController#0" expanded="false" />
-            <element signature="method#getNodeByRowColumnIndex#0;class#NoiseInjectorModifyController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/review/TableManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1144,10 +1367,96 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/noiseInjectorGUImodify.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="26" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/view/noiseInjectorGUImain.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="25" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/LineGraphSettings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#629#630#0" expanded="false" />
+            <element signature="e#660#661#0" expanded="false" />
+            <element signature="e#707#708#0" expanded="false" />
+            <element signature="e#747#748#0" expanded="false" />
+            <element signature="e#781#782#0" expanded="false" />
+            <element signature="e#812#813#0" expanded="false" />
+            <element signature="e#859#860#0" expanded="false" />
+            <element signature="e#899#900#0" expanded="false" />
+            <element signature="e#936#937#0" expanded="false" />
+            <element signature="e#969#970#0" expanded="false" />
+            <element signature="e#1021#1022#0" expanded="false" />
+            <element signature="e#1065#1066#0" expanded="false" />
+            <element signature="e#1102#1103#0" expanded="false" />
+            <element signature="e#1135#1136#0" expanded="false" />
+            <element signature="e#1187#1188#0" expanded="false" />
+            <element signature="e#1231#1232#0" expanded="false" />
+            <element signature="e#1268#1269#0" expanded="false" />
+            <element signature="e#1301#1302#0" expanded="false" />
+            <element signature="e#1353#1354#0" expanded="false" />
+            <element signature="e#1397#1398#0" expanded="false" />
+            <element signature="e#1434#1435#0" expanded="false" />
+            <element signature="e#1467#1468#0" expanded="false" />
+            <element signature="e#1519#1520#0" expanded="false" />
+            <element signature="e#1563#1564#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorModifyController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="58" column="34" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="method#initialiseGUI#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#createHeadings#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#setSaveLocation#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#navigationBtnHandler#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#generateButton#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="e#4998#4999#0" expanded="false" />
+            <element signature="e#5065#5066#0" expanded="false" />
+            <element signature="method#previewButtonHandler#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#loadPreviewPanel#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#getRandomName#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#loadNames#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#setComboBoxValues#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="e#12849#12850#0" expanded="false" />
+            <element signature="e#12891#12892#0" expanded="false" />
+            <element signature="e#12934#12935#0" expanded="false" />
+            <element signature="e#12999#13000#0" expanded="false" />
+            <element signature="method#writeDataToFile#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#addSettingsRow#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#generateOptionsNode#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#generateComboBox#0;class#NoiseInjectorModifyController#0" expanded="false" />
+            <element signature="method#getNodeByRowColumnIndex#0;class#NoiseInjectorModifyController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Presenter/NoiseInjectorMainController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5040816">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
           <folding>
             <element signature="method#browseForFile#0;class#NoiseInjectorMainController#0" expanded="false" />
             <element signature="method#loadFile#0;class#NoiseInjectorMainController#0" expanded="false" />
@@ -1158,8 +1467,47 @@
             <element signature="method#checkSettingData#0;class#NoiseInjectorMainController#0" expanded="false" />
             <element signature="method#generateUnfilledAlertBox#0;class#NoiseInjectorMainController#0" expanded="false" />
             <element signature="method#getNodeByRowColumnIndex#0;class#NoiseInjectorMainController#0" expanded="false" />
-            <element signature="method#tpyeRef#0;class#NoiseInjectorMainController#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestFolder/NoiseAdditionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/model/kAnonDataTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/model/ARXkAnonymiserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/model/LineGraphSettingsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests/Presenter/NoiseInjectorMainControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32754344">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>

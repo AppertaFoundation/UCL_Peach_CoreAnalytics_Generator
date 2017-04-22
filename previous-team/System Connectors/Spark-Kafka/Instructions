@@ -1,0 +1,10 @@
+Kafka Project is the example project ran on my local machine which has a kafka producer written in java and SparkCS is the project actually implemented on the server which only has a Spark consumer which is consuming from the Kafka topic already produced by Nifi.
+
+
+Instructions to run:
+
+1.)Start zookeeper and the kafka server(peach-server1.properties) [refer to org.apache for more information]
+2.)cd to Spark's directory
+3.)cd to sbin
+4.)bin/start-all.sh
+5.)Submit the consumer class written in java in SparkCS from the peach directory

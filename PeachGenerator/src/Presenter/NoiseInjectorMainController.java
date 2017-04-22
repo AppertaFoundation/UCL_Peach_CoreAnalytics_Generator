@@ -314,10 +314,8 @@ public class NoiseInjectorMainController {
 
 
     protected int tpyeRef(String catType){
-
         /* Set default as empty */
         int retVal = 4;
-
         switch (catType){
             case "continious":
                 retVal = 0;

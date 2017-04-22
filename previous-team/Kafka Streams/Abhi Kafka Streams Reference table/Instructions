@@ -1,0 +1,8 @@
+Steps:
+
+1)Start zookeeper and the kafka server(peach-server1.properties).
+2.)Create a new topic for the join.
+3.)Run the executable jar file of the project with the classpath.
+4.)Start a consumer of the newly formed topic and consume from beginning.
+
+Refer to org.apache for further details on how to run servers. 

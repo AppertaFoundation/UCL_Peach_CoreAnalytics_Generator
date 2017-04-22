@@ -1,0 +1,4 @@
+com/peach/connector/Consumer.class
+com/peach/connector/ConnectorProperties.class
+com/peach/connector/BlobConnection.class
+com/peach/connector/MainConsumer.class

@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Team 38</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Teamm 38</a>
+            </li>
+            <li>
+                <a href="index.html" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="requirements.html" onclick=$("#menu-close").click();>Requirements</a>
+            </li>
+            <li>
+                <a href="research.html" onclick=$("#menu-close").click();>Research</a>
+            </li>
+            <li>
+                <a href="hci.html" onclick=$("#menu-close").click();>HCI</a>
+            </li>
+            <li>
+                <a href="design.html" onclick=$("#menu-close").click();>Design</a>
+            </li>
+            <li>
+                <a href="testing.html" onclick=$("#menu-close").click();>Testing</a>
+            </li>
+            <li>
+                <a href="evaluation.html" onclick=$("#menu-close").click();>Evaluation</a>
+            </li>
+            <li>
+                <a href="management.html" onclick=$("#menu-close").click();>Management</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- DC/OS -->
+    <section id="about" class="about bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Topic 1: DC/OS</h2>
+                    <h3><strong>DC/OS  &#8211; What is it?</strong></h3>
+                    <h4><i>DC/OS is a distributed operating system based on the Apache Mesos distributed systems kernel. It enables the management of multiple machines as if they were a single computer. It automates resource management, schedules process placement, facilitates inter-process communication, and simplifies the installation and management of distributed services. Its included web interface and available command-line interface (CLI) facilitate remote management and monitoring of the cluster and its services.</i></h4>
+                    <img src="img/dcos.png" class="img-circle person" alt="Random Name" width="127" height="127">
+                    <h3><strong>Why are we using it?</strong></h3>
+                    <h4><i>We chose DC/OS as the main cluster manager for our resources because it is very compatible with Azure Stack and contains common useful management interfaces such as a GUI. This allows the users to easily monitor and debug problems thus reducing downtime. Furthermore , it supports sense discovery and package management.</i></h4>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Kafka -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Topic 2: Apache Kafka</h2>
+                    
+                    <h3><strong>Kafka  &#8211; What is it?</strong></h3>
+                    <h4><i>Kafka is used for building real-time data pipelines and stream and stream apps. It is horizontally scalable, fault-tolerant, and wicked fast.</i></h4>
+                    <img src="img/kafka.jpg" class="img-portfolio person" alt="Random Name" width="200" height="200">
+                    <h3><strong>Why are we going to use it?</strong></h3>
+                    <h4><i>It lets us publish and subscribe to streams of records. In this respect it is similar to a message queue or enterprise messaging system.</i></h4>
+                    <h4><i>It lets us store streams of records in a fault-tolerant way.</i></h4>
+                    <h4><i>It lets us process stream of records as they occur.</i></h4>
+                    <h4><i>We are going to use Kafka as a data hub of our architecture, receiving the data stream from Nifi and interacting with other analytic frameworks such as spark and druid.</i></h4>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Spark -->
+    <section id="about" class="about bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Topic 3: Apache Spark</h2>
+                    
+                    <h3><strong>Spark  &#8211; What is it?</strong></h3>
+                    <h4><i>Apache Spark is a fast and general engine for large-scale data processing, also advertised as ‘lightning fast open source cluster computing’. Spark is Apache’s most active project at the moment, providing software developers with an application program interface that allows them to run programs quickly. Spark also enables faster and more efficient code writing as it has over 80 high-level operators at the users’ disposal</i></h4>
+
+                    <img src="img/spark.png" class="img-portfolio person" alt="Random Name" width="255" height="150">
+                    <h3><strong>Why are we going to use it?</strong></h3>
+                    <h4><i>Spark provides a framework for advanced analytics which includes tools for accelerating queries, a machine learning library, a graph processing engine and a streaming analytics engine.</i></h4>
+                    <h4><i>Spark accelerates results as it provides parallel in-memory processing that returns results much faster than any other approach that requires disk access.</i></h4>
+                    <h4><i>It is easy and fast to use as it has several prebuilt libraries.</i></h4>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Nifi -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Topic 4: Apache NiFi</h2>
+                    
+                    <h3><strong>NiFi  &#8211; What is it?</strong></h3>
+                    <h4><i>Apache Nifi is a real time integrated data logistics and simple event processing platform that automates the movement of data between disparate data sources and systems, making data ingestion fast, easy and secure.</i></h4>
+
+                    <img src="img/nifi.png" class="img-portfolio person" alt="Random Name" width="255" height="150">
+                    <h3><strong>Why are we going to use it?</strong></h3>
+                    <h4><i>It is an effective platform for building powerful and scalable data-flows.</i></h4>
+                    <h4><i>It lends well to visual creation and management of directed graphs of processors.</i></h4>
+                    <h4><i>It tracks the point at which data enters and exits the system well.</i></h4>
+                    <h4><i>Will allow us to pre-process the radiology data to work well with Druid and observe its metadata.</i></h4>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Druid -->
+    <section id="about" class="about bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Topic 5: Druid</h2>
+                    
+                    <h3><strong>Druid  &#8211; What is it?</strong></h3>
+                    <h4><i>Druid is an open-source analytics data store designed for business intelligence (OLAP) queries on event data. Druid provides low latency (real-time) data ingestion, flexible data exploration, and fast data aggregation.” Druid was originally inspired by existing data stores such as Google’s PowerDrill and it stores data in columns which is suitable for querying and filtering.</i></h4>
+
+                    <img src="img/druid.png" class="img-portfolio person" alt="Random Name" width="255" height="88">
+                    <h3><strong>Why are we going to use it?</strong></h3>
+                    <h4><i>Druid has some outstanding key features that makes it perfect for fast data aggregation. These would be:</i></h4>
+                    <h4><i>1) Sub OLAP Queries : Druid’s column structure and indexing enables multi-layer filtering and scanning which is perfect for querying.</i></h4>
+                    <h4><i>2) Real-time data ingestion : Druid allows rapid ingestion of heavy data sets as much as upto “10,000+ events” per second.</i></h4>
+                    <h4><i>3) Cost-Effective : Druid is not only open source but has numerous features built in for cost reduction.</i></h4>
+                    <h4><i>4) Scalable : " Existing Druid deployments handle trillions of events, petabytes of data, and thousands of queries every second."</i></h4>
+                    <h4><i>Furthermore Druid is suitable for our project because the PEACH infrastructure requires fast aggregation of heavy data sets ( lots and lots of data) and can it be further worked on for future dashboard applications.</i></h4>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Reference -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Reference:</h2>
+                    <h4><i>"Install | DC/OS", DC/OS, 2017. [Online]. Available: https://dcos.io/install/. [Accessed: 17- Apr- 2017].</i></h4>
+                    <h4><i>"Apache Kafka", 2017. [Online]. Available: https://kafka.apache.org/. [Accessed: 17- Apr- 2017].</i></h4>
+                    <h4><i>"Apache Spark™ - Lightning-Fast Cluster Computing", Spark.apache.org, 2017. [Online]. Available: http://spark.apache.org. [Accessed: 17- Apr- 2017].</i></h4>
+                    <h4><i>"Integrating Apache NiFi with Kafka : Apache NiFi", Blogs.apache.org, 2017. [Online]. Available: https://blogs.apache.org/nifi/entry/integrating_apache_nifi_with_apache. [Accessed: 17- Apr- 2017].</i></h4>
+                    <h4><i>Druid.io. (2017). Druid | Interactive Analytics at Scale. [online] Available at: http://druid.io [Accessed 17 Apr. 2017].</i></h4>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    
+    <!-- Footer -->
+    <footer class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>UCL CS System Engineering Project</strong>
+                    </h4>
+                    <p>Department of Computer Science
+                        <br>University College London</p>
+                    <hr class="small">
+                    <p>Copyright &copy; Team-38 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>

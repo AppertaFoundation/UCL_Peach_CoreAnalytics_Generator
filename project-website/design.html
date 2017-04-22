@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Team 38</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+    <nav id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+            <li class="sidebar-brand">
+                <a href="#top" onclick=$("#menu-close").click();>Teamm 38</a>
+            </li>
+            <li>
+                <a href="index.html" onclick=$("#menu-close").click();>Home</a>
+            </li>
+            <li>
+                <a href="requirements.html" onclick=$("#menu-close").click();>Requirements</a>
+            </li>
+            <li>
+                <a href="research.html" onclick=$("#menu-close").click();>Research</a>
+            </li>
+            <li>
+                <a href="hci.html" onclick=$("#menu-close").click();>HCI</a>
+            </li>
+            <li>
+                <a href="design.html" onclick=$("#menu-close").click();>Design</a>
+            </li>
+            <li>
+                <a href="testing.html" onclick=$("#menu-close").click();>Testing</a>
+            </li>
+            <li>
+                <a href="evaluation.html" onclick=$("#menu-close").click();>Evaluation</a>
+            </li>
+            <li>
+                <a href="management.html" onclick=$("#menu-close").click();>Management</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Enlarge -->
+    <div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                </div>
+                <div class="modal-body">
+                    <img src="" class="enlargeImageModalSource" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- System Architecture Graph -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>System Architecture Graphs</h2>
+                    <h4><i>These were the high level diagrams along with the relative explanation about the architecture that our client expected. This gave us a broad overview of the system that needs to be implemented.</i></h4>
+                    <hr class="small">
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Lv.0: External Data</a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <a>
+                                        <div class="col-lg-12 text-center">
+                                            <p class="lead">Data in external hospitals (eg UCLH) that we need to get into our cloud platform</p>
+                                        </div>
+                                        <img class="img-responsive" src="img/1.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Lv.1: “Integration Engine” ---- NiFi</a>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <a>
+                                        <div class="col-lg-12 text-left">
+                                            <p class="lead">To get this data across, we need an “integration engine”.</p>
+                                            <p class="lead">For this, we are using NiFi. This is a great program for constructing data flows using a GUI-driven building process. This has many useful features including:</p>
+                                            <p class="lead">a) ability to transmit encrypted data (we need to use AES-256-bit encryption for NHS data)</p>
+                                            <p class="lead">b) fully auditable data flow</p>
+                                            <p class="lead">c) easy interface for non-programmers to construct new data flows</p>
+                                            <p class="lead">d) ability to transform data in preparation for storage in the receiving system.</p>
+                                            <p class="lead">e) ability to accept data in many forms (eg file dump, SQL access, consumer of Kafka etc)</p>
+                                            <p class="lead">In this diagram, we have a “sending” node in the hospital and a “receiving” node within our platform.</p>
+                                            <p class="lead">We also have radiology data as the main use case in this project, but it can be used for other data in the future. We will be demonstrating the full processing pipeline for this data, and aim to optimise this pathway.</p>
+                                        </div>
+                                        <img class="img-responsive" src="img/2.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Lv.2: Other Apps Outside DC/OS</a>
+                                </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <a>
+                                        <div class="col-lg-12 text-left">
+                                            <p class="lead">We will also have some other (non-analytics) applications hosted on Azure which will be generating their own novel data – eg the openEHR platform, as well as other parts of PEACH Cancer and Chatbot. We need to capture this novel data to feed to the analytics platform.</p>
+                                            <p class="lead">Also these apps may need to access data from NiFi (or even Kafka) – eg blood test results from the external hospital, so this connection is bi-directional.</p>
+                                        </div>
+                                        <img class="img-responsive" src="img/3.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">Lv.3: Core-Achitecture ---- Kafka</a>
+                                </h4>
+                            </div>
+                            <div id="collapse4" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <a>
+                                        <div class="col-lg-12 text-left">
+                                            <p class="lead">Now we look at the structure of the PEACH analytics platform - quite complicated in itself, and ideally hosted within DCOS.</p>
+                                            <p class="lead">The data is ingested from NiFi into Kafka, which is the hub for all data in the analytics platform. This can also send data back to NiFi (ie Nifi is both a publisher and consumer with regards to Kafka).</p>
+                                            <p class="lead">The data in Kafka can be handled in many ways, but we are always going to back up all the raw data that comes into Kafka to Azure Blob storage. Some processed data streams are also backed up.</p>
+                                            <p class="lead">Next we look at the different destinations for data from Kafka.</p>
+                                        </div>
+                                        <img class="img-responsive" src="img/4.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse5">Lv.4: Core-Achitecture ---- Druid & OLAP</a>
+                                </h4>
+                            </div>
+                            <div id="collapse5" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <a>
+                                        <div class="col-lg-12 text-left">
+                                            <p class="lead">For dashboards and OLAP work, the data from Kafka is consumed by Druid.</p>
+                                            <p class="lead">Druid is a wide-column database, which allows for high performance OLAP work, but which requires all the data from different tables to be joined (into a wide column!)</p>
+                                            <p class="lead">This joining is performed by Kafka Streams. Each individual join is performed by a separate Kafka Streams processor, and the result stored back to Kafka - this data may then be processed by another Kafka Streams processor (ie a further join performed). Eventually all the joins are done and the final data is stored back in Kafka, fully processed.</p>
+                                            <p class="lead">Finally, there are other data viz platforms which work really well with Druid, in which we choose Metabase to perform data visualization.</p>
+                                            <p class="lead"></p>
+                                        </div>
+                                        <img class="img-responsive" src="img/5.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse6">Lv.5: Core-Achitecture ---- Spark</a>
+                                </h4>
+                            </div>
+                            <div id="collapse6" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <a>
+                                        <div class="col-lg-12 text-left">
+                                            <p class="lead">Again some data may need pre-processing in Kafka Streams before sending to Spark.</p>
+                                            <p class="lead">Spark can consume data from Kafka, we can submit jobs written in java to perform operation on tha data, such as machine learning.</p>
+                                        </div>
+                                        <img class="img-responsive" src="img/6.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse7">Lv.6: Full Outline</a>
+                                </h4>
+                            </div>
+                            <div id="collapse7" class="panel-collapse collapse">
+                                <div class="panel-body">
+                                    <a>
+                                        <div class="col-lg-12 text-center">
+                                            <p class="lead">Here is the full detailed graph.</p>
+                                        </div>
+                                        <img class="img-responsive" src="img/7.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Design Pattern -->
+    <section id="about" class="about bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Design Pattern</h2>
+                    <p class="lead">In progress</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Development Tools & ImplImplementation details -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Development Tools & Implementation Details</h2>
+                    <p class="lead">In progress</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h4><strong>UCL CS System Engineering Project</strong>
+                    </h4>
+                    <p>Department of Computer Science
+                        <br>University College London</p>
+                    <hr class="small">
+                    <p>Copyright &copy; Team-38 2017</p>
+                </div>
+            </div>
+        </div>
+        <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    $(function() {
+        $('img').on('click', function() {
+            $('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+            $('#enlargeImageModal').modal('show');
+        });
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+
+    
+    </script>
+
+</body>
+
+</html>

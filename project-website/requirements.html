@@ -1,0 +1,841 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Team 38</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+        <!-- Custom Fonts -->
+        <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+
+        <!-- Navigation -->
+        <a id="menu-toggle" href="#" class="btn btn-dark btn-lg toggle"><i class="fa fa-bars"></i></a>
+        <nav id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
+                <li class="sidebar-brand">
+                    <a href="#top" onclick=$("#menu-close").click();>Teamm 38</a>
+                </li>
+                <li>
+                    <a href="index.html" onclick=$("#menu-close").click();>Home</a>
+                </li>
+                <li>
+                    <a href="requirements.html" onclick=$("#menu-close").click();>Requirements</a>
+                </li>
+                <li>
+                    <a href="research.html" onclick=$("#menu-close").click();>Research</a>
+                </li>
+                <li>
+                    <a href="hci.html" onclick=$("#menu-close").click();>HCI</a>
+                </li>
+                <li>
+                    <a href="design.html" onclick=$("#menu-close").click();>Design</a>
+                </li>
+                <li>
+                    <a href="testing.html" onclick=$("#menu-close").click();>Testing</a>
+                </li>
+                <li>
+                    <a href="evaluation.html" onclick=$("#menu-close").click();>Evaluation</a>
+                </li>
+                <li>
+                    <a href="management.html" onclick=$("#menu-close").click();>Management</a>
+                </li>
+            </ul> 
+        </nav>
+
+        <div class="modal fade" id="enlargeImageModal" tabindex="-1" role="dialog" aria-labelledby="enlargeImageModal" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="" class="enlargeImageModalSource" style="width: 100%;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About -->
+        <section id="about" class="about bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Project Background</h2>
+                        <p class="lead">Currently, the NHS does not provide a suitable infrastructure to be used for activities such as capturing, transforming or transferring data across different systems, where users can use their own encrypted data flows as well as manipulate the incoming data where necessary. Because of this lack of a single secure, consistent and easy to use platform, existing applications for healthcare services are not widely used.</p>
+                        <p class="lead">The vision for Project PEACH is to create such an infrastructure to support research, education and practice progression of NHS Systems for different healthcare related cases in Radiology.</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+
+        <!-- Client -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Our Client</h2>
+                        <a href="https://www.linkedin.com/in/navin-ramachandran-6732a4135/">
+                        <img src="img/Navin.jpg" class="img-circle person" alt="Random Name" width="127" height="127">
+                        </a><br>
+                        <p class="lead">Our main client is Dr Navin Ramachandran who is a Radiology Doctor at UCLH and an honorary senior lecturer at UCL CHIME. He will oversee the PEACH project.</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+        <!-- Problem -->
+        <section id="about" class="about bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Problem Statement</h2>
+                        <p class="lead">Our main problem is to implement the core infrastructure of the system such that various applications can connect to the servers from various domains, building upon the largely experimental work carried out by the team previously allocated to this project. </p>
+                        <p class="lead">Our secondary problem is to provide researchers and clinicians with a random data generator where the tool must be able to generate new anonymized sets of data and thus enable researchers and clinicians to use this data for system building and testing while preserving data confidentiality.</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+
+        <!-- Requirement Gathering -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>Requirement Gathering</h2>
+                        <p class="lead">Our main source of requirements were Interviews and meetings with Dr Ramachandran. After our initial meeting, we started working on a set of MoSCoW style analysis and created our initial set of requirements. Few weeks later, after a broader understanding of our project and its scope, we came up with the final set of requirements keeping feasibility in mind which both us and our client agreed upon.</p>
+                        <p class="lead">Since the Generator is a continuation of a previous team's project, we thoroughly looked at their requirements and analysed what was complete and incomplete. Based on that, we and Dr Ramachandran came up with our version of requirements.</p>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+
+        <!-- Persona -->
+        <section id="solution" class="portfolio bg-primary">
+        <div class="container">
+        
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Persona</h2>
+                    <hr class="large">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a>
+                                    <img class="img-portfolio img-responsive" src="img/doctor.jpg">
+                                </a>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="portfolio-item">
+                                <a>
+                                    <img class="img-portfolio img-responsive" src="img/researcher.jpg">
+                                </a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+        </section>
+
+        <!-- Requirement Overview -->
+        <section id="about" class="about">
+            <div class="container">
+                <div class="col-lg-12 text-center">
+                    <h2>Requirement Overview</h2>
+                    <h3><em>Core Analytics</em></h3>
+                    <ul>
+                    <li>The PEACH infrastructure must be able to communicate with applications from various domains</li>
+                    <li>There must be a director of data flow to control the input, output and pre processing of the data</li>
+                    <li>There must be a central message exchange hub to direct the data inside the container service</li>
+                    <li>The processed data should be persisted as logs</li>
+                    </ul>
+                    <p>&nbsp;</p>
+                    <h3><em>PEACH Generator</em></h3>
+                    <ul>
+                    <li>The generator must be able to specify the type of output of the data</li>
+                    <li>The generator must allow the user to choose the privacy level of certain data fields</li>
+                    <li>The generator must implement the k-anonymity anonymisation model.</li>
+                    <li>The generator must be able to shuffle existing data</li>
+                    <li>The generator must be able to generate new randomized data from previous novel data sets</li>
+                    </ul>
+                </div>
+            </div>
+                <br>
+            <div class="container">
+                <div class="panel-group" id="accordion">
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">MOSCOW ANALYSIS: CORE-ANALYTICS (Initial Set)</a>
+                        </h4>
+                      </div>
+                      <div id="collapse1" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                            <tbody>
+                            <tr>
+                            <td>Requirement Number</td>
+                            <td>Description</td>
+                            <td>Priority</td>
+                            </tr>
+                            <tr>
+                            <td>1</td>
+                            <td>Make sure code is well documented and annotated throughout</td>
+                            <td>M</td>
+                            </tr>
+                            <tr>
+                            <td>2</td>
+                            <td>Include a step by step guide on how the system was set up</td>
+                            <td>M</td>
+                            </tr>
+                            <tr>
+                            <td>3</td>
+                            <td>Create a website with an online manual on how to use the system</td>
+                            <td>M</td>
+                            </tr>
+                            <tr>
+                            <td>4</td>
+                            <td>Include screen captured videos and images outlining the system’s features on the website</td>
+                            <td>M</td>
+                            </tr>
+                            <tr>
+                            <td>5</td>
+                            <td>Use DC/OS template as the main resource manager in Azure</td>
+                            <td>M</td>
+                            </tr>
+                            <tr>
+                            <td>6</td>
+                            <td>Use Apache NiFi as the main integration engine for outside data sources</td>
+                            <td>M</td>
+                            </tr>
+                            <tr>
+                            <td>7</td>
+                            <td>Use Apache Kafka as the central message exchange hub in the PEACH system</td>
+                            <td>M</td>
+                            </tr>
+                            <tr>
+                            <td>8</td>
+                            <td>Process the pesudonymised radiology dataset as an example use case</td>
+                            <td>M</td>
+                            </tr>
+                            <tr>
+                            <td>9</td>
+                            <td>Build connectors to Druid (building on the work done in round 1) and Spark</td>
+                            <td>M</td>
+                            </tr>
+                            <tr>
+                            <td>10</td>
+                            <td>Optimise the Kafka Streams processing implemented in round 1</td>
+                            <td>M</td>
+                            </tr>
+                            <tr>
+                            <td>11</td>
+                            <td>Install Metabase (<a href="https://github.com/metabase">https://github.com/metabase</a> http://www.metabase.com/docs/v0.20.3/), Pivot (from https://imply.io/docs/latest/release) , Caravel (<a href="http://airbnb.io/projects/caravel/">http://airbnb.io/projects/caravel/</a>) on Druid</td>
+                            <td>S</td>
+                            </tr>
+                            <tr>
+                            <td>12</td>
+                            <td> Install Elastic Stack (https://www.elastic.co/) on Spark using Elasticsearch-Hadoop (https://www.elastic.co/products/hadoop)</td>
+                            <td>S</td>
+                            </tr>
+                            <tr>
+                            <td>13</td>
+                            <td>Use a deployment script to automate the deployment in the UK region.</td>
+                            <td>S</td>
+                            </tr>
+                            <tr>
+                            <td>14</td>
+                            <td> Create a phantom data generator, building on the PEACH Generator project.</td>
+                            <td>S</td>
+                            </tr>
+                            <tr>
+                            <td>15</td>
+                            <td>Implement security within the PEACH structure to keep the data flow secure</td>
+                            <td>S</td>
+                            </tr>
+                            <tr>
+                            <td>16</td>
+                            <td> Implement a GUI for Apache Kafka for a more user friendly environment</td>
+                            <td>C</td>
+                            </tr>
+                            <tr>
+                            <td>17</td>
+                            <td>Make certain that the system is compatible with all other project components</td>
+                            <td>S</td>
+                            </tr>
+                            <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            </tr>
+                            </tbody>
+                            </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">MOSCOW ANALYSIS: CORE-ANALYTICS (Final Set)</a>
+                        </h4>
+                      </div>
+                      <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                            <tbody>
+                            <tr>
+                            <td>No.</td>
+                            <td>Requirement</td>
+                            <td>Functional or Non-Functional</td>
+                            <td>Priority</td>
+                            </tr>
+                            <tr>
+                            <td>1</td>
+                            <td>Successfully redeploy the previous DC/OS system ( This must use the components listed below)</td>
+                            <td>Functional</td>
+                            <td>Must Have</td>
+                            </tr>
+                            <tr>
+                            <td style="padding-left: 30px;">1.1</td>
+                            <td>Use <a href="http://students.cs.ucl.ac.uk/2016/group38/index.php/development/dcos/">DC/OS</a> template as the main resource manager in Azure</p>
+                            <ul>
+                            <li>DC/OS allows you to deploy a data pipeline very quickly and manage the built in components within Azure easily</li>
+                            </ul>
+                            </td>
+                            <td>Functional</td>
+                            <td>Must Have</td>
+                            </tr>
+                            <tr>
+                            <td style="padding-left: 30px;">1.2</td>
+                            <td>Use <a href="http://students.cs.ucl.ac.uk/2016/group38/index.php/development/apache-nifi/">Apache NiFi</a> as the main integration engine for outside data sources</p>
+                            <ul>
+                            <li>NiFi will pre-process the raw data and initiate the data pipelines for multiple platforms</li>
+                            </ul>
+                            </td>
+                            <td>Functional</td>
+                            <td>Must Have</td>
+                            </tr>
+                            <tr>
+                            <td style="padding-left: 30px;">1.3</td>
+                            <td>Use <a href="http://students.cs.ucl.ac.uk/2016/group38/index.php/development/apache-kafka/">Apache Kafka</a> as the central message exchange hub in the PEACH system</p>
+                            <ul>
+                            <li>Kafka will extract data from the input and push the aggregated data to other subsystems</li>
+                            </ul>
+                            </td>
+                            <td>Functional</td>
+                            <td>Must Have</td>
+                            </tr>
+                            <tr>
+                            <td style="padding-left: 30px;">1.4</td>
+                            <td>Build connectors to <a href="http://students.cs.ucl.ac.uk/2016/group38/index.php/development/druid/">Druid</a> (building on the work done in round 1) and <a href="http://students.cs.ucl.ac.uk/2016/group38/index.php/development/apache-spark/">Spark</a></p>
+                            <ul>
+                            <li>Druid allows you to query event driven data</li>
+                            <li>Spark performs complex analysis for a large data set</li>
+                            </ul>
+                            </td>
+                            <td>Functional</td>
+                            <td>Must Have</td>
+                            </tr>
+                            <tr>
+                            <td style="padding-left: 30px;">1.5</td>
+                            <td>Recreate the radiology data workflow implemented in round 1</p>
+                            <ul>
+                            <li>The fully anonymized data-set from UCLH radiology database in a CSV format should be used for experimenting and testing stages.</li>
+                            </ul>
+                            </td>
+                            <td>Functional</td>
+                            <td>Must Have</td>
+                            </tr>
+                            <tr>
+                            <td style="padding-left: 30px;">1.6</td>
+                            <td>Optimize the Kafka Streams processing implemented in round 1</p>
+                            <ul>
+                            <li>Kafka Streams is a library for streaming applications that transform input Kafka data into output Kafka data. This can extend to other streaming applications such as Apache Spark</li>
+                            <li>This will be based on the comparisons between the speed of the optimized system vs the the speed of the previous system</li>
+                            </ul>
+                            </td>
+                            <td>Functional</td>
+                            <td>Should Have</td>
+                            </tr>
+                            <tr>
+                            <td>2</td>
+                            <td>Implement a GUI for Kafka maintenance</p>
+                            <ul>
+                            <li>Will allow the team to visualize the different tasks ongoing in Kafka and their status</li>
+                            </ul>
+                            </td>
+                            <td>Functional</td>
+                            <td>Could Have</td>
+                            </tr>
+                            <tr>
+                            <td>3</td>
+                            <td>Install extra visualization tools (Metabase, Caravel, Imply.io, Elastic stack) to allow future GUI driven analytics ( This will allow the team to work on existing dashboard apps rather than starting from scratch)</td>
+                            <td>Functional</td>
+                            <td>Should Have</td>
+                            </tr>
+                            </tbody>
+                            </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">MOSCOW ANALYSIS: Generator (Initial Set)</a>
+                        </h4>
+                      </div>
+                      <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tbody>
+                                <tr>
+                                <td><span style="font-weight: 400;">No.</span></td>
+                                <td><span style="font-weight: 400;">Requirement</span></td>
+                                <td><span style="font-weight: 400;">Functional or Non Functional</span></td>
+                                <td><span style="font-weight: 400;">Priority</span></td>
+                                <td><span style="font-weight: 400;">Progress</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">1</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow the user to specify the type of output that is required. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">2</span></td>
+                                <td><span style="font-weight: 400;">The system shall accept Comma Separated Values files as input data. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">3</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow the user to preview the uploaded data. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">4</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow the user to specify the privacy level and datatype of each data field. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">5</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow the user to preview the noise to be applied to the data. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">6</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow the user the ability to modify the amount of noise applied. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">7</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow for the obfuscation of identifying information. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">8</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow the user to shuffle identifying information. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">9</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow for novel data to replace identifying information. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Not Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">10</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow the user to specify a save location for the output file. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">11</span></td>
+                                <td><span style="font-weight: 400;">The system shall implement the k-anonymity anonymisation model. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">12</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow the user to specify the level of k-anonymity applied to the data. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">13</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow the user to select the generalization hierarchy to be applied to the data. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Not Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">14</span></td>
+                                <td><span style="font-weight: 400;">The system shall output the data in comma separated format. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">15</span></td>
+                                <td><span style="font-weight: 400;">The system shall transform all data locally (i.e. not over the internet) </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">16</span></td>
+                                <td><span style="font-weight: 400;">The system shall automatically detect the presence of empty columns and remove them. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Should</span></td>
+                                <td><span style="font-weight: 400;">Not Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">17</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow for the creation of new generalization hierarchies. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Could</span></td>
+                                <td><span style="font-weight: 400;">Not Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">18</span></td>
+                                <td><span style="font-weight: 400;">The system shall automatically detect the variable type </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Could</span></td>
+                                <td><span style="font-weight: 400;">Not Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">19</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow the user to specify dependencies between fields. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Could</span></td>
+                                <td><span style="font-weight: 400;">Not Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">20</span></td>
+                                <td><span style="font-weight: 400;">The system shall automatically detect semantic functional dependencies. </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Could</span></td>
+                                <td><span style="font-weight: 400;">Not Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">21</span></td>
+                                <td><span style="font-weight: 400;">The system shall be compatible with XML file formats </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Wont</span></td>
+                                <td><span style="font-weight: 400;">Not Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">22</span></td>
+                                <td><span style="font-weight: 400;">The system shall handle the anonymisation of unstructured free-text information </span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Wont</span></td>
+                                <td><span style="font-weight: 400;">Not Done</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">23</span></td>
+                                <td><span style="font-weight: 400;">The system shall be easy to extend</span></td>
+                                <td><span style="font-weight: 400;">Non functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;"> N/A</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">24</span></td>
+                                <td><span style="font-weight: 400;">The system shall be styled to the PEACH style guide</span></td>
+                                <td><span style="font-weight: 400;">Non functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                <td><span style="font-weight: 400;">N/A</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">25</span></td>
+                                <td><span style="font-weight: 400;">The system shall be easy to use</span></td>
+                                <td><span style="font-weight: 400;">Non functional</span></td>
+                                <td><span style="font-weight: 400;">Could</span></td>
+                                <td><span style="font-weight: 400;">N/A</span></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="panel panel-default">
+                      <div class="panel-heading">
+                        <h4 class="panel-title">
+                          <a data-toggle="collapse" data-parent="#accordion" href="#collapse4">MOSCOW ANALYSIS: Generator (Final Set)</a>
+                        </h4>
+                      </div>
+                      <div id="collapse4" class="panel-collapse collapse">
+                        <div class="panel-body">
+                            <table class="table">
+                                <tbody>
+                                <tr>
+                                <td><span style="font-weight: 400;">No.</span></td>
+                                <td><span style="font-weight: 400;">Requirements</span></td>
+                                <td><span style="font-weight: 400;">Functional Or Non Functional</span></td>
+                                <td><span style="font-weight: 400;">Priority</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">1</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow for novel data to replace identifying information.</span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">2</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow the user to select the generalization hierarchy to be applied to the data. (eg. age: [10-20], [20-30], [30-40],&#8230;)</span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">3</span></td>
+                                <td><span style="font-weight: 400;">The system shall automatically detect the presence of empty columns and give the option to remove them</span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Should</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">4</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow for the creation of new generalization hierarchies.</span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Could</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">5</span></td>
+                                <td><span style="font-weight: 400;">The system shall automatically detect the variable type</span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Could</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">6</span></td>
+                                <td><span style="font-weight: 400;">The system shall allow the user to specify dependencies between fields.</span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Could</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">7</span></td>
+                                <td><span style="font-weight: 400;">The system shall automatically detect semantic functional dependencies.</span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Could</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">8</span></td>
+                                <td><span style="font-weight: 400;">The system shall be compatible with XML file formats</span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Wont</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">9</span></td>
+                                <td><span style="font-weight: 400;">The system shall handle the anonymisation of unstructured free-text information</span></td>
+                                <td><span style="font-weight: 400;">Functional</span></td>
+                                <td><span style="font-weight: 400;">Wont</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">10</span></td>
+                                <td><span style="font-weight: 400;">The system shall be easy to extend</span></td>
+                                <td><span style="font-weight: 400;">Non functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">11</span></td>
+                                <td><span style="font-weight: 400;">The system shall be styled to the PEACH style guide</span></td>
+                                <td><span style="font-weight: 400;">Non functional</span></td>
+                                <td><span style="font-weight: 400;">Must</span></td>
+                                </tr>
+                                <tr>
+                                <td><span style="font-weight: 400;">12</span></td>
+                                <td><span style="font-weight: 400;">The system shall be easy to use</span></td>
+                                <td><span style="font-weight: 400;">Non functional</span></td>
+                                <td><span style="font-weight: 400;">Should</span></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+
+        <!-- Use cases -->
+        <section id="about" class="about bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="text-center">Use Cases</h2>
+                        <p class="lead">Generator Use Case 1:</p>
+                        <p class="lead">Actor: Peach-Architecture Tester</p>
+                        <p class="lead"><i>The tester has a copy of real medical data. He needs to transform the copy to be anonymous for future testing in the main data stream. He chooses the ‘Anonymise data’ option and uploads the file in the generator. He is able to view the file and choose the data field which should be anonymised. Then he clicks the ‘Generate’ button to generate a new file.</i></p>
+                        <br>
+                        <p class="lead">Generator Use Case 2:</p>
+                        <p class="lead">Actor: Peach-Architecture Tester</p>
+                        <p class="lead"><i>The tester has a copy of a data file. He needs more similar data as the original one. He chooses the ‘Generate novel data’ option and uploads the file in the generator. He is able to view the file and choose the data field which he wants to have more new data. Then he clicks ‘Generate’ button to generate a new file.</i></p>
+                    </div>
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-10 col-lg-offset-1 text-center">
+                        <h4><strong>UCL CS System Engineering Project</strong>
+                        </h4>
+                        <p>Department of Computer Science
+                            <br>University College London</p>
+                        <hr class="small">
+                        <p class="text-muted">Copyright &copy; Team-38 2017</p>
+                    </div>
+                </div>
+            </div>
+            <a id="to-top" href="#top" class="btn btn-dark btn-lg"><i class="fa fa-chevron-up fa-fw fa-1x"></i></a>
+        </footer>
+
+        <!-- jQuery -->
+        <script src="js/jquery.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="js/bootstrap.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script>
+        // Closes the sidebar menu
+        $("#menu-close").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+        // Opens the sidebar menu
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+        $(function() {
+        $('img').on('click', function() {
+            $('.enlargeImageModalSource').attr('src', $(this).attr('src'));
+            $('#enlargeImageModal').modal('show');
+        });
+        });
+        // Scrolls to the selected menu item on the page
+        $(function() {
+            $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+        //#to-top button appears after scrolling
+        var fixed = false;
+        $(document).scroll(function() {
+            if ($(this).scrollTop() > 250) {
+                if (!fixed) {
+                    fixed = true;
+                    // $('#to-top').css({position:'fixed', display:'block'});
+                    $('#to-top').show("slow", function() {
+                        $('#to-top').css({
+                            position: 'fixed',
+                            display: 'block'
+                        });
+                    });
+                }
+            } else {
+                if (fixed) {
+                    fixed = false;
+                    $('#to-top').hide("slow", function() {
+                        $('#to-top').css({
+                            display: 'none'
+                        });
+                    });
+                }
+            }
+        });
+        // Disable Google Maps scrolling
+        // See http://stackoverflow.com/a/25904582/1607849
+        // Disable scroll zooming and bind back the click event
+        var onMapMouseleaveHandler = function(event) {
+            var that = $(this);
+            that.on('click', onMapClickHandler);
+            that.off('mouseleave', onMapMouseleaveHandler);
+            that.find('iframe').css("pointer-events", "none");
+        }
+        var onMapClickHandler = function(event) {
+                var that = $(this);
+                // Disable the click handler until the user leaves the map area
+                that.off('click', onMapClickHandler);
+                // Enable scrolling zoom
+                that.find('iframe').css("pointer-events", "auto");
+                // Handle the mouse leave event
+                that.on('mouseleave', onMapMouseleaveHandler);
+            }
+            // Enable map zooming with mouse scroll when the user clicks the map
+        $('.map').on('click', onMapClickHandler);
+        </script>
+
+    </body>
+
+    </html>

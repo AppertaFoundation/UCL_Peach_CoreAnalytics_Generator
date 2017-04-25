@@ -38,7 +38,7 @@
         <ul class="sidebar-nav">
             <a id="menu-close" href="#" class="btn btn-light btn-lg pull-right toggle"><i class="fa fa-times"></i></a>
             <li class="sidebar-brand">
-                <a href="#top" onclick=$("#menu-close").click();>Teamm 38</a>
+                <a href="#top" onclick=$("#menu-close").click();>Team 38</a>
             </li>
             <li>
                 <a href="index.html" onclick=$("#menu-close").click();>Home</a>
@@ -246,7 +246,9 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Design Pattern</h2>
-                    <p class="lead">In progress</p>
+                    <p class="lead"><i>As our project is a totally backend architecture using existing tools and framework, there is no specific design pattern implemented by ourselves. The following paragraph is about the pattern used in our subproject, data generator.</i></p>
+                    <p class="lead">Generator: Model-View-Presenter</p>
+                    <p class="lead">The generator used a Model-View-Presenter architectural design pattern. Model-View-Presenter is designed to facilitate the use of automated testing. It seeks to improve the separation of concerns to an even greater extent than the MVC approach. In this framework, the presenter layer contains all business logic. Once an event is detected by the view layer, information is passed to the presentation layer through event handlers or data-binding. The presenter layer is able to execute the business logic and make the relevant changes to the model. The presenter layer then updates the view.</p>
                 </div>
             </div>
             <!-- /.row -->
@@ -260,7 +262,16 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2>Development Tools & Implementation Details</h2>
-                    <p class="lead">In progress</p>
+                    <h3>1) Deploy our architecture on Azure</h3>
+                    <p class="lead">Tools: Microsoft Azure, Kafka, Spark, NiFi and DC/OS</p>
+                    <p class="lead">With the DC/OS system running on Microsoft Azure, we tried to install the three components in the system at the beginning. However, problems occurred when we tried to install Kafka with a default setting. As DC/OS is still a project under development, there is less documentation on such problems. To clarify the cause and make the deployment process work more smoothly, we made the decision to deploy a same system on our local machine firstly.</p>
+                    <p class="lead">After implementing the same architecture on local machine, we repeated the same procedure to deploy it on DC/OS. This time we successfully installed all the three components and keep them running continuously. But when we tried to connect them with each other, we confronted another challenge, accessing NiFi GUI. What we did to solve this problem is to bypass the APwe provided, X11 forwarding the GUI from the remote server via SSH.</p>
+                    <h3>2) Finish all the functionalities of the generator</h3>
+                    <p class="lead">Tools: IntelliJ Idea</p>
+                    <p class="lead">According to the test result of generator from last term, one of the two functions of the generator did not work correctly. So our focus this term is on repairing the broken “Generate novel data” function. To locate the bug, we read through all the code and understood the previous implementation details. Fortunately, most of their code runs in the appropriate way and we only need to make slight changes. we finally succeeded to make the secondly function run in the first month of this term, which provided us more time on the main deployment task. </p>
+                    <p class="lead"></p>
+                    <p class="lead"></p>
+                    <p class="lead"></p>
                 </div>
             </div>
             <!-- /.row -->
